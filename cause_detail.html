@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <title>Y.I.ACharity Causes Detail</title>
+    <link rel="stylesheet" href="./LIB/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./responsive.css" />
+    <link rel="stylesheet" type="text/css" href="./cause_detail.css" />
+    <link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="container">
+            <a href="html.html">
+                <div class="logo">
+                    <img src="./IMAGE/logo.png">
+                </div>
+            </a>
+            <div class="main_menu desktop">
+                <ul>
+                    <a href="html.html">
+                        <li>HOME</li>
+                    </a>
+                    <li>MISSION</li>
+                    <li class="parent">CAUSE
+                        <ul class="sub_menu">
+                            <li>FAIR TRADE</li>
+                            <li>FARMING</li>
+                            <li>VACCINES</li>
+                            <li>EDUCATON</li>
+                            <li>CLEAN WATER</li>
+                            <li>SHELTER</li>
+                        </ul>
+                    </li>
+                    <li>BLOG</li>
+                </ul>
+            </div>
+            <div class="mobile bar" onclick="menu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="m-menu mobile">
+                <ul>
+                    <li>HOME</li>
+                    <li>MISSION</li>
+                    <li class="parent">CAUSE
+                        <ul class="sub_menu">
+                            <li>FAIR TRADE</li>
+                            <li>FARMING</li>
+                            <li>VACCINES</li>
+                            <li>EDUCATON</li>
+                            <li>CLEAN WATER</li>
+                            <li>SHELTER</li>
+                        </ul>
+                    </li>
+                    <li>BLOG</li>
+                </ul>
+            </div>
+            <button class="donate desktop">
+                        DONATE
+                    </button>
+            <script>
+                function menu() {
+                    $('.m-menu').toggleClass('active');
+                }
+            </script>
+        </div>
+    </section>
+
+    <section class="body">
+        <div class="image-single-header">
+            <div class="caption-slider-single">
+                <p class="main"></p>
+                <p class="sub"></p>
+                <div class="button-imgheader">
+                    <button>DONATE NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row intro-detail">
+            <div class="col-md-8">
+                <div class="intro-text-detail">
+                    <h1></h1>
+                    <p class="p1"></p>
+                    <p class="p2"></p>
+                    <p class="p3"></p>
+                    <button>OUR MISSION</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="intro-img-detail">
+                    <div class="intro-part one">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span class="num1">0</span>
+                        <p>Volunteers worldwide</p>
+                    </div>
+                    <div class="intro-part two">
+                        <span>
+                            <i class="fas fa-globe"></i>
+                        </span>
+                        <span class="num2">0</span>
+                        <p>Active projects</p>
+                    </div>
+                    <div class="intro-part three">
+                        <span>
+                            <i class="fas fa-dollar-sign"></i>
+                        </span>
+                        <span class="num3">0</span>
+                        <p>Donated</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row map-detail">
+            <div class="col-md-8">
+                <div id="map">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="map-text">
+                    <p>
+                        Fair trade. Would it not be more logical to label unfair products?
+                    </p>
+                    <div class="map-contact">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>32-34 Owego St, Cortland, NY
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>+1 607-753-6900
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>Charity@gmail.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cause detail">
+            <div class="container">
+                <div class="cause-title">
+                    <h1>OTHER CAUSES</h1>
+                    <p>We run projects in over 30 countries in 5 contintents</p>
+                </div>
+                <div class="cause-image">
+                    <div class="item">
+                        <img src="./IMAGE/1.jpg">
+                        <p>FAIR TRADE</p>
+                    </div>
+                    <div class="item">
+                        <img src="./IMAGE/2.jpg">
+                        <p>SHELTER</p>
+                    </div>
+                    <div class="item">
+                        <img src="./IMAGE/3.jpg">
+                        <p>FARMING</p>
+                    </div>
+                    <div class="item">
+                        <img src="./IMAGE/4.jpg">
+                        <p>VACCINES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="change-life">
+            <div class="life-title">
+                <h1>CHANGE A LIFE TODAY</h1>
+                <p>As long as poverty, injustice & inequality persist, none of us can truly rest. It doesn’t take much to change a life, Get in touch today and start making the difference.</p>
+            </div>
+            <div class="life-button">
+                <button class="b1">VOLUNTEER</button>
+                <button class="b2">DONATE NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="logo-footer">
+            <img src="./IMAGE/logo.png">
+        </div>
+        <div class="footer-power">
+            <p>© Copyright 2012 - 2018 CHARITY THEME BY THEME FUSION | ALL RIGHTS RESERVED | POWERED BY EXAMPLE</p>
+            <div class="icon-contact">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </section>
+
+    <button id="myBtn" class="back-to-top" onclick="topFunction()">
+                <i class="fas fa-angle-up"></i>
+            </button>
+
+    <script src="./LIB/jquery/jquery-min.js"></script>
+    <script src="./LIB/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        var offsetEfc;
+        var efcInterval;
+        var efcRunning1 = 0;
+        var efcRunning2 = 0;
+        var efcRunning3 = 0;
+
+
+        $(document).ready(function() {
+            offsetEfc = $(".intro-img-detail").offset().top - 300;
+        })
+        $(window).scroll(function() {
+            var offsetTop = $(this).scrollTop();
+            if (offsetTop > offsetEfc) {
+                efcInterval = setInterval(function() {
+                    if (efcRunning1 < 1000) {
+                        efcRunning1 += 2;
+                        $(".intro-img-detail .num1").html(efcRunning1);
+                    }
+                    if (efcRunning2 < 50000) {
+                        efcRunning2 += 100;
+                        $(".intro-img-detail .num2").html(efcRunning2);
+                    }
+                    if (efcRunning3 < 1000) {
+                        efcRunning3 += 2;
+                        $(".intro-img-detail .num3").html(efcRunning3);
+                    } else {
+                        clearInterval(efcInterval);
+                    }
+                }, 100);
+            }
+        });
+
+        var header = $(".header");
+
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 50) {
+                header.addClass("scrolled");
+            } else {
+                header.removeClass("scrolled");
+            }
+        });
+
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 10.8107529,
+                lng: 106.7123212
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 10,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+                icon: "./IMAGE/marker.png"
+            });
+            var infowindow = new google.maps.InfoWindow({
+                content: "<h2>Y.I.ACharity</h2>"
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHEx7qYjNbSmVpoZAVmii0vC-5RCXc8lo&callback=initMap"></script>
+
+    <script>
+        $(document).ready(function() {
+            var urlString = window.location.href;
+            var url = new URL(urlString);
+            var keyParam = url.searchParams.get("key");
+
+            if (keyParam != null) {
+                getData(keyParam);
+            }
+        });
+
+        function getData(keyParam) {
+            $.ajax({
+                type: "GET",
+                url: "https://www.jasonbase.com/things/" + keyParam + ".json",
+                success: function(response) {
+                    var image = "<img src='" + response.image + "'/>";
+                    $('.image-single-header').prepend(image);
+                    var title_main = "<p>" + response.title + "</p>";
+                    $('.main').prepend(title_main);
+                    var sub_main = "<p>" + response.sub + "</p>";
+                    $('.sub').prepend(sub_main);
+                    var title_cause = "<p>" + response.causetitle + "</p>";
+                    $('.intro-text-detail h1').prepend(title_cause);
+                    var content_cause1 = "<p>" + response.content1 + "</p>";
+                    $('.intro-text-detail .p1').prepend(content_cause1);
+                    var content_cause2 = "<p>" + response.content2 + "</p>";
+                    $('.intro-text-detail .p2').prepend(content_cause2);
+                    var content_cause3 = "<p>" + response.content3 + "</p>";
+                    $('.intro-text-detail .p3').prepend(content_cause3);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .container .logo {
+        margin-left: 50px;
+    }
+    .container .fa-bars {
+        color: #cdd72a;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+    }
+    .header .fa-bars {
+        position: absolute;
+        top: 65px;
+        right: 50px;
+        font-size: 30px;
+    }
+    .header .m-menu {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        background: white;
+        display: none;
+    }
+    .header .m-menu.active {
+        display: block;
+        opacity: 1;
+        z-index: 2;
+    }
+    .header .m-menu ul {
+        color: rgb(133, 131, 131);
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        /* text-align: center; */
+    }
+    .header .m-menu ul li {
+        border-top: 1px solid rgb(226, 222, 222);
+        font-size: 18px;
+        padding: 10px 0 10px 15px;
+        text-transform: uppercase;
+        /* text-align: center; */
+        cursor: pointer;
+    }
+    .header .m-menu ul li:hover {
+        color: white;
+        background: #cdd72a;
+    }
+    .m-menu .parent .sub_menu {
+        display: none;
+    }
+    .body .intro {
+        height: 700px;
+    }
+    .carousel-caption .main,
+    .caption-slider-single .main p {
+        font-size: 60px;
+    }
+    .carousel-caption .sub,
+    .caption-slider-single .sub p {
+        font-size: 25px;
+    }
+    .values .container {
+        width: 100%;
+    }
+    .values .values-part {
+        padding: 0 80px;
+        width: 50%;
+    }
+    .values .values-part:nth-child(1),
+    .values .values-part:nth-child(2) {
+        margin-bottom: 50px;
+    }
+    .body .cause {
+        width: 100%;
+    }
+    .cause-image .item {
+        width: 47%;
+        text-align: center;
+    }
+    .cause-image .item:nth-child(1),
+    .cause-image .item:nth-child(2) {
+        margin-bottom: 50px;
+    }
+    .cause-image .item p {
+        left: 91px;
+    }
+    .blog .blog-left {
+        width: 100%;
+        float: none;
+        padding: 0 50px;
+        margin-bottom: 80px;
+        border: none;
+    }
+    .blog .blog-left img {
+        width: 100%;
+    }
+    .blog .blog-left:hover {
+        box-shadow: none;
+    }
+    .blog .blog-right {
+        margin: 0 50px;
+    }
+    .blog .blog-right .blog-part {
+        margin-bottom: 100px;
+    }
+    .body .life-title p {
+        margin: 0 200px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+    .carousel-caption .sub,
+    .caption-slider-single .sub p {
+        font-size: 20px;
+        padding: 0 120px;
+    }
+    .body .intro .intro-text {
+        float: none;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .body .intro {
+        height: 1285px;
+    }
+    .body .intro .intro-img {
+        width: 100%;
+        height: 600px;
+    }
+    .cause-image .item {
+        float: none;
+        margin: auto;
+    }
+    .cause-image .item img {
+        width: auto;
+        height: auto;
+    }
+    .cause-image .item:nth-child(1),
+    .cause-image .item:nth-child(2),
+    .cause-image .item:nth-child(3) {
+        margin-bottom: 50px;
+    }
+    .cause-image .item p {
+        left: 0;
+    }
+    .body .life-title p {
+        margin: 0 150px;
+    }
+    .footer .footer-power p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:425px) {
+    .header .logo img {
+        width: 180px;
+    }
+    .carousel-caption .main,
+    .caption-slider-single .main p {
+        font-size: 35px;
+    }
+    .carousel-caption .sub,
+    .caption-slider-single .sub p {
+        font-size: 15px;
+        padding: 0 90px;
+    }
+    .body .intro {
+        height: 1550px;
+    }
+    .cause-image .item img {
+        width: 100%;
+    }
+    .cause-image .item p {
+        font-size: 20px;
+    }
+    .cause-more {
+        font-size: 15px;
+    }
+    .values .values-part {
+        width: 100%;
+    }
+    .body .values {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .blog .blog-right .blog-part {
+        margin-bottom: 50px;
+    }
+    .body .life-title p {
+        font-size: 18px;
+        margin: 0 50px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
